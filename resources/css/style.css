@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fallj.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    animation-name: background;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes background{
+    0%{
+        background-image: url(../img/fallj.jpg);
+    }
+    25%{
+        background-image: url(../img/fallj.jpg);
+    }
+    45%{
+        background-image: url(../img/spring.jpg);
+    }
+    50%{
+        background-image: url(../img/spring.jpg);
+    }
+    65%{
+        background-image: url(../img/summer.jpg);
+    }
+    75%{
+        background-image: url(../img/summer.jpg);
+    }
+    85%{
+        background-image: url(../img/winter.jpg);
+    }
+    95%{
+        background-image: url(../img/winter.jpg);
+    }
+}
+
+.container{
+    background-color: rgba(0, 255, 255, 0.579);
+    width: 25rem;
+    color: #c8cae8;
+    padding: 2rem;
+    text-align: center;
+    border: 3px solid #32d0f3ce; 
+    border-radius: 2rem; 
+    -webkit-text-stroke: 0.8px rgba(0, 0, 0, 0.438);
+}
+.container h1{
+    padding: 1rem;
+}
+.container h2{
+    padding-top: 1rem;
+}
+.container select{
+    background-color: rgba(16, 16, 16, 0.822);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
